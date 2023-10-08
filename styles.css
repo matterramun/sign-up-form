@@ -1,0 +1,22 @@
+body {
+    display: flex;
+}
+
+.splash-container {
+    display:flex;
+    border: 100px, solid, black;
+    background-image: url(./assets/splash.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 100vh;
+}
+
+.body-containter{
+    width: 60%;
+}
+
+h1 {
+    color:aqua
+}

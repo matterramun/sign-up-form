@@ -28,3 +28,4 @@ Sign up form is based on [this design](https://cdn.statically.io/gh/TheOdinProje
 - Do not worry about making your project look nice on mobile, but DO resize your browser a little bit to make sure that it’s not completely broken at different desktop resolutions.
 - Checking that the password fields match each other requires javascript. Try to implement this if you feel confident, otherwise just validate each field separately.
 
+Credit to [Justin Clark](https://unsplash.com/@imjustintime) on [Unsplash](https://unsplash.com/) for Splash.
