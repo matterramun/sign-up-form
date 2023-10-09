@@ -16,7 +16,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+    margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -94,6 +94,33 @@ h1 {
     color: white;
 }
 
-.body-containter{
-    width: 60%;
+h2 {
+    font-size: 1.5em;
+}
+
+.body-container {
+    padding: 5% !important;
+}
+
+.body-container > *, form > * {
+    margin: .7rem;
+}
+
+.form-container {
+    background-color: rgba(141, 148, 141, 0.712);
+    display: flex;
+}
+
+label {
+    color: #000000;
+    font-weight: bold;
+    display: block;
+  }
+
+label:after { content: ": " }
+
+fieldset {
+    column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
 }
