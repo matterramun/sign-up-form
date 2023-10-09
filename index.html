@@ -29,21 +29,21 @@
             <h2>Get yourself a frog!</h1>
             <fieldset>
                 <label for="first-name">First Name</label>
-                <input type="text" id="first-name">
+                <input type="text" id="first-name" name="first-name">
                 <label for="last-name">Last Name</label>
-                <input type="text" id="last-name">
+                <input type="text" id="last-name" name="last-name">
             </fieldset>
             <fieldset>
                 <label for="email">Email</label>
-                <input type="email" id="email">
+                <input type="email" id="email" name="email" placeholder="email@email.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
                 <label for="phone-number">Phone Number</label>
-                <input type="text" id="phone-number">
+                <input type="text" id="phone-number" name="phone" placeholder="1234567890" pattern="[789][0-9]{9}">
             </fieldset>
             <fieldset>
                 <label for="password">Password</label>
-                <input type="password" id="password">
+                <input type="password" id="password" minlength="5" name="password">
                 <label for="confirm">Confirm Password</label>
-                <input type="password" id="confirm">
+                <input type="password" id="confirm" minlength="5">
             </fieldset>
             <button type="submit">GET A FROG</button>
         </form>

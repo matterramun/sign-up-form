@@ -167,3 +167,7 @@ a {
 #login {
     color: darkolivegreen;
 }
+
+input:invalid {
+    border-color: red;
+  }
