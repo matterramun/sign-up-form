@@ -5,23 +5,29 @@ body {
 
 .splash-container {
     display:flex;
+    flex-direction: column;
     border: 100px, solid, black;
     background-image: url(./assets/splash.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    align-items: center;
+    place-items: center;
     width: 30%;
     height: 100vh;
 }
 
 .splash-banner {
+    margin-top: 20vh;
     width: 100%;
     height: fit-content;
     display:flex;
-    align-items: center;
-    justify-content: space-evenly;
+    place-items: center;
+    margin-bottom: auto;
     background-color: rgba(0, 0, 0, 0.521)
+}
+
+footer {
+    margin-top: auto;
 }
 
 .logo {
