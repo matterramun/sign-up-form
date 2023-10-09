@@ -50,6 +50,7 @@ table {
 body {
     display: flex;
     align-items: center;
+    background-color: rgb(228, 228, 228);
 }
 
 /* ^^ Reset ^^ */
@@ -99,19 +100,32 @@ h1 {
 
 h2 {
     font-size: 1.5em;
+    justify-self: left;
+}
+
+.body-container {
+    min-width: 70%;
 }
 
 .body-container > * > * {
-    margin: 5% !important;
+    margin: .7rem !important;
 }
 
-.body-container > h2, form > * {
+.body-container > h2{
+    margin-left: 5vw;
+    margin-right: 5vw;
     margin: .7rem;
 }
 
 .form-container {
-    background-color: rgba(141, 148, 141, 0.712);
+    background-color: white;
+    filter: drop-shadow(darkgrey .5rem .5rem 5px);
     display: flex;
+}
+
+form > * {
+    margin-top: .7rem;
+    margin-bottom: .7rem; 
 }
 
 label {
@@ -126,4 +140,25 @@ fieldset {
     column-count: 2;
     -moz-column-count: 2;
     -webkit-column-count: 2;
+}
+
+button {
+    border: 2px solid darkolivegreen;
+    background-color: rgb(124, 161, 59);
+    border-radius: 20px;
+    font-size: 1.5rem;
+    padding: .75rem;
+}
+
+p {
+    margin-top: 1rem;
+    margin-left: .7rem;
+}
+
+a {
+    color: white;
+}
+
+#login {
+    color: darkolivegreen;
 }
