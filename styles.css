@@ -74,7 +74,10 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: auto;
-    background-color: rgba(0, 0, 0, 0.521)
+    background-color: rgba(0, 0, 0, 0.521);
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-bottom: 10px;
 }
 
 footer {
@@ -98,11 +101,11 @@ h2 {
     font-size: 1.5em;
 }
 
-.body-container {
-    padding: 5% !important;
+.body-container > * > * {
+    margin: 5% !important;
 }
 
-.body-container > *, form > * {
+.body-container > h2, form > * {
     margin: .7rem;
 }
 
