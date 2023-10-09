@@ -29,6 +29,11 @@ body {
     height: 200px;
 }
 
+h1 {
+    font-family: 'Shantell Sans', cursive, Arial, sans-serif;
+    font-size: 3.5em;
+}
+
 .body-containter{
     width: 60%;
 }
