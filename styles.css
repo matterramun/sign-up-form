@@ -1,5 +1,6 @@
 body {
     display: flex;
+    align-items: center;
 }
 
 .splash-container {
@@ -9,14 +10,25 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    align-items: center;
     width: 30%;
     height: 100vh;
 }
 
-.body-containter{
-    width: 60%;
+.splash-banner {
+    width: 100%;
+    height: fit-content;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.521)
 }
 
-h1 {
-    color:aqua
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
+.body-containter{
+    width: 60%;
 }
